@@ -1,0 +1,7 @@
+lib/Acme/CPANAuthors/European.pm
+Makefile.PL
+MANIFEST
+t/000_basic.t
+Changes
+README
+META.yml                                 Module meta-data (added by MakeMaker)
