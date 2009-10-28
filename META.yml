@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Acme-CPANAuthors-European
-version:            2009102801
+version:            2009102802
 abstract:           European CPAN authors
 author:
     - Abigail <cpan@abigail.be>
@@ -9,10 +9,16 @@ distribution_type:  module
 configure_requires:
     ExtUtils::MakeMaker:  0
 build_requires:
+    Acme::CPANAuthors:    0
     ExtUtils::MakeMaker:  0
+    strict:               0
     Test::More:           0
+    warnings:             0
 requires:
-    perl:  5.006
+    Acme::CPANAuthors::Register:  0
+    perl:                 5.006
+    strict:               0
+    warnings:             0
 resources:
     repository:  git://github.com/Abigail/Acme--CPANAuthors--European.git
 no_index:
