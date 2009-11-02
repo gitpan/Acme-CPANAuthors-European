@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Acme-CPANAuthors-European
-version:            2009102802
+version:            2009110201
 abstract:           European CPAN authors
 author:
     - Abigail <cpan@abigail.be>
@@ -15,7 +15,17 @@ build_requires:
     Test::More:           0
     warnings:             0
 requires:
+    Acme::CPANAuthors::Austrian:  0
+    Acme::CPANAuthors::French:  0
+    Acme::CPANAuthors::German:  0
+    Acme::CPANAuthors::Icelandic:  0
+    Acme::CPANAuthors::Italian:  0
+    Acme::CPANAuthors::Norwegian:  0
+    Acme::CPANAuthors::Portuguese:  0
     Acme::CPANAuthors::Register:  0
+    Acme::CPANAuthors::Russian:  0
+    Acme::CPANAuthors::Turkish:  0
+    Acme::CPANAuthors::Ukrainian:  0
     perl:                 5.006
     strict:               0
     warnings:             0
